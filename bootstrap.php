@@ -105,6 +105,8 @@ Autoloader::add_classes(array(
 	'Fuel\\Core\\Database_MySQL_Result'          => COREPATH.'classes/database/mysql/result.php',
 	'Fuel\\Core\\Database_Mysqli_Connection'     => COREPATH.'classes/database/mysqli/connection.php',
 	'Fuel\\Core\\Database_MySQLi_Result'         => COREPATH.'classes/database/mysqli/result.php',
+	'Fuel\\Core\\Database_PGSQL_Connect'	     => COREPATH.'classes/database/pgsql/connection.php',
+	'Fuel\\Core\\Database_PGSQL_Result'	     => COREPATH.'classes/database/pgsql/result.php',
 
 	'Fuel\\Core\\Fuel_Exception'  => COREPATH.'classes/fuel/exception.php',
 
